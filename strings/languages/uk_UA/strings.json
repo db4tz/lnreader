@@ -14,7 +14,7 @@
     "chapterInsertFailed": "Помилка додавання розділу",
     "clearCachedNovels": "Видалити кешовані новели",
     "clearCachedNovelsDesc": "Видалити кешовані новели, яких немає у вашій бібліотеці",
-    "clearDatabaseWarning": "Ви впевнені?\n Завантажені розділи і прогрес буде втрачено для новел не з бібліотеки.",
+    "clearDatabaseWarning": "Ви впевнені?\nЗавантажені розділи і прогрес буде втрачено для новел не з бібліотеки.",
     "clearUpdatesMessage": "Оновлення очищені.",
     "clearUpdatesTab": "Очистити вкладку оновлення",
     "clearUpdatesWarning": "Ви впевнені?\nВкладку оновлення буде очищено.",
@@ -26,7 +26,7 @@
     "importNovel": "Імпортувати новелу",
     "importStaticFiles": "Import Static Files",
     "novelInsertFailed": "помилка додавання розділу",
-    "useFAB": "Використовувати плаваючу кнопку",
+    "useFAB": "Використовувати FAB",
     "userAgent": "User Agent"
   },
   "appearance": "Вигляд",
@@ -39,7 +39,7 @@
     "lightTheme": "Світла тема",
     "navbar": "Navbar",
     "novelInfo": "Інформація про новелу",
-    "pureBlackDarkMode": "Повністю чорна темна тема",
+    "pureBlackDarkMode": "Повністю чорна тема",
     "showHistoryInTheNav": "Показувати вкладку Історія",
     "showUpdatesInTheNav": "Показувати вкладку Оновлення",
     "theme": {
@@ -58,7 +58,7 @@
     "backupName": "Назва резервної копії",
     "createBackup": "Зробити резервну копію",
     "createBackupDesc": "Дозволяє відновити вашу бібліотеку",
-    "createBackupWarning": "Створення резервної копії може не працювати на Adnroid 9 і нижче",
+    "createBackupWarning": "Створення резервної копії може не працювати на Android 9 і нижче",
     "downloadingData": "Завантаження",
     "downloadingDownloadedFiles": "Завантажую завантажені файли",
     "drive": {
@@ -82,19 +82,19 @@
     "preparingData": "Підготовка даних",
     "remote": {
       "backup": "Завантажити резервну копію на власний хостинг",
-      "host": "Завантажити",
+      "host": "Хост",
       "unknownHost": "Невідомий хост"
     },
-    "remoteBackup": "Віддаленна резервна копія",
+    "remoteBackup": "Віддалена резервна копія",
     "restoreBackup": "Відновити резервну копію",
     "restoreBackupDesc": "Відновити бібліотеку з резервної копії",
-    "restoreLargeBackupsWarning": "Відновлення з великого файла резервної копії може заморозити додаток до закінчення процесу",
+    "restoreLargeBackupsWarning": "Відновлення з великої копії може заморозити додаток до закінчення процесу",
     "restorinBackup": "Відновлення резервної копії",
     "restoringData": "Відновлення даних",
     "selfHost": "Власний хостинг",
     "selfHostDesc": "Завантажити резервну копію на власний сервер",
-    "uploadingData": "Надсилання даних",
-    "uploadingDownloadedFiles": "Ві"
+    "uploadingData": "Надсилання файлів",
+    "uploadingDownloadedFiles": "Надсилання завантажених файлів"
   },
   "browse": "Огляд",
   "browseScreen": {
@@ -111,20 +111,20 @@
     "listEmpty": "Увімкнути мови з налаштувань",
     "migration": {
       "dialogMessage": "Перенести з %{url}?",
-      "novelAlreadyInLibrary": "Новелу уже додано до бібліотеки",
+      "novelAlreadyInLibrary": "Новелу вже додано до бібліотеки",
       "selectSource": "Оберіть джерело",
       "selectSourceDesc": "Оберіть звідки перенести дані"
     },
     "noSource": "У вашій бібліотеці немає новел з цього джерела",
     "removeFromLibrary": "Вилучено з бібліотеки",
     "searchbar": "Шукати джерела",
-    "selectNovel": "Select Novel",
+    "selectNovel": "Оберіть новелу",
     "uninstalledPlugin": "Видалено %{name}",
     "updateFailed": "Помилка оновлення",
     "updatedTo": "Оновлено до %{version}",
     "settings": {
-      "title": "Налаштування плагіна",
-      "description": "Оберіть налаштування плагіна. Перезапустіть додаток щоб зміни прийшли в силу."
+      "title": "Налаштування плагіну",
+      "description": "Оберіть налаштування плагіну. Перезапустіть додаток щоб зміни прийшли в силу."
     }
   },
   "browseSettings": "Налаштування джерел",
@@ -200,10 +200,10 @@
     "refresh": "Оновити",
     "share": "Поділитися",
     "openInBrowser": "Відкрити в браузері",
-    "clearCookies": "Очистити кукі",
-    "cookiesCleared": "Кукі очищено",
-    "clearData": "Clear WebView data",
-    "dataDeleted": "WebView data cleared"
+    "clearCookies": "Очистити куки",
+    "cookiesCleared": "Куки очищено",
+    "clearData": "Очистити дані Веб-перегляду",
+    "dataDeleted": "Очищено дані Веб-перегляду"
   },
   "date": {
     "calendar": {
@@ -235,31 +235,31 @@
     "chapterSort": "Сортування за замовчуванням",
     "desc": "(Спадання)",
     "disableLoadingAnimations": "Вимкнути анімацію завантаження",
-    "disableLoadingAnimationsDesc": "Це може покращити роботу на старих пристроях",
+    "disableLoadingAnimationsDesc": "Може покращити роботу на старих пристроях",
     "disableHapticFeedback": "Вимкнути вібрацію",
     "disableHapticFeedbackDescription": "Вимкнути вібрацію при натисканні.",
     "displayMode": "Режим відображення",
-    "downloadNewChapters": "Завантажити нові розділи",
+    "downloadNewChapters": "Завантажувати нові розділи",
     "epub": "EPUB",
     "epubLocation": "розташування EPUB файлів",
     "epubLocationDescription": "Розташування відкритих та експортованих EPUB файлів.",
     "globalUpdate": "Глобальне оновлення",
     "gridSize": "Розмір сітки",
-    "gridSizeDesc": "Кількість рядків: %{num} ",
+    "gridSizeDesc": "Кількість рядків: %{num}",
     "itemsPerRow": "Елементів в рядку",
     "itemsPerRowLibrary": "Розмір сітки бібліотеки",
     "jumpToLastReadChapter": "Перейти до осанього розділу зі списку",
     "novel": "Новела",
     "novelBadges": "Мітки",
     "novelSort": "Сортувати новели",
-    "refreshMetadata": "Автоматично оновлювати інформацію про новели",
+    "refreshMetadata": "Автоматично оновлювати метадані",
     "refreshMetadataDescription": "Перевіряє наявність нового опису і обкладинок при оновленні бібліотеки",
     "sortOrder": "Порядок сортування",
     "updateLibrary": "Оновлювати бібліотеку при запуску",
     "updateLibraryDesc": "Не рекомендовано для слабких пристроїв",
     "updateOngoing": "Оновлювати лише новели, що виходять",
     "updateTime": "Показувати час останнього оновлення",
-    "useFAB": "Використовувати плаваючу кнопку в бібліотеці"
+    "useFAB": "Використовувати FAB в бібліотеці"
   },
   "globalSearch": {
     "allSources": "всіх джерел",
@@ -282,28 +282,28 @@
         "compact": "Компактна сітка",
         "displayMode": "Режим відображення",
         "download": "Завантажити",
-        "downloadBadges": "Завантажено",
+        "downloadBadges": "Завантажені",
         "list": "Список",
         "noTitle": "Тільки обкладинки",
         "numberOfItems": "Кількість елементів",
-        "showNoOfItems": "Показати кількість елементів",
-        "unread": "Непрочитано",
-        "unreadBadges": "Не прочитано"
+        "showNoOfItems": "Показати кількість",
+        "unread": "Непрочитані",
+        "unreadBadges": "Непрочитані"
       },
       "filters": {
-        "completed": "Завершено",
-        "downloaded": "Завантажено",
-        "started": "Почато",
-        "unread": "Не прочитано"
+        "completed": "Завершені",
+        "downloaded": "Завантажені",
+        "started": "Початі",
+        "unread": "Непрочитані"
       },
       "sortOrders": {
         "alphabetically": "За алфавітом",
         "dateAdded": "За датою додання",
-        "download": "Завантажено",
+        "download": "Завантажені",
         "lastRead": "Останні прочитані",
-        "lastUpdated": "Востаннє оновлено",
-        "totalChapters": "За загальною кількістю розділів",
-        "unread": "Не прочитано"
+        "lastUpdated": "Останні оновленні",
+        "totalChapters": "За кількістю розділів",
+        "unread": "Непрочитані"
       }
     },
     "empty": "Ваша бібліотека порожня. Додайте новели з Огляду.",
@@ -318,7 +318,7 @@
   "more": "Більше",
   "moreScreen": {
     "downloadOnly": "Показувати тільки завантажене",
-    "downloadOnlyDesc": "Показувати тільки завантажені новели у вашій бібліотеці",
+    "downloadOnlyDesc": "Показувати тільки завантажені новели",
     "downloadQueue": "Черга завантаження",
     "incognitoMode": "Режим інкогніто",
     "incognitoModeDesc": "Не записувати історію перегляду"
@@ -331,9 +331,9 @@
         "sourceTitle": "Джерело"
       },
       "filters": {
-        "bookmarked": "Додано в закладки",
-        "downloaded": "Завантажено",
-        "unread": "Непрочитано"
+        "bookmarked": "Додані в закладки",
+        "downloaded": "Завантажені",
+        "unread": "Непрочитані"
       },
       "order": {
         "byChapterName": "За назвою розділу",
@@ -357,7 +357,7 @@
     "deletedAllDownloads": "Видалити усі завантаження",
     "download": {
       "custom": "Custom",
-      "customAmount": "Download custom amount",
+      "customAmount": "Завантажити вказану кількість",
       "delete": "Видалити завантаження",
       "next": "Наступний розділ",
       "next10": "Наступні 10 розділів",
@@ -392,7 +392,7 @@
     "status": {
       "cancelled": "Скасовано",
       "completed": "Завершено",
-      "licensed": "Видавець",
+      "licensed": "Ліцензовано",
       "onHiatus": "На паузі",
       "ongoing": "Виходить",
       "publishingFinished": "Завершено",
@@ -414,7 +414,7 @@
       "fullscreen": "Повноекранний режим",
       "lineHeight": "Висота рядка",
       "padding": "Відступ",
-      "pageReader": "Натисніть вправо або вліво для перелистування сторінки (Експериментально)",
+      "pageReader": "Натисніть вправо або вліво для перелистування сторінок (Експериментально)",
       "removeExtraSpacing": "Видалити додатковий інтервал між абзацами",
       "scrollAmount": "Обсяг прокручування (висота екрана за умовчанням)",
       "showBatteryAndTime": "Показувати заряд батареї і час",
@@ -465,7 +465,7 @@
     "noResultsFound": "Нічого не знайдено"
   },
   "statsScreen": {
-    "downloadedChapters": "Завантажено",
+    "downloadedChapters": "Завантажені",
     "genreDistribution": "Розподіл за жанром",
     "readChapters": "Прочитано розділів",
     "sources": "Джерел",
@@ -473,7 +473,7 @@
     "title": "Статистика",
     "titlesInLibrary": "Новел",
     "totalChapters": "Всього",
-    "unreadChapters": "Непрочитано"
+    "unreadChapters": "Непрочитані"
   },
   "tracking": "Відстеження",
   "trackingScreen": {
@@ -490,7 +490,7 @@
     "newChapters": "нові Розділи",
     "novelsUpdated": "%{num} новел оновлено",
     "searchbar": "Пошук оновлень",
-    "unableToGetNovel": "Неможливо завантажити новелу",
+    "unableToGetNovel": "Невдалося завантажити новелу",
     "updatesLower": "оновлення",
     "updatingLibrary": "Оновлення бібліотеки"
   },
