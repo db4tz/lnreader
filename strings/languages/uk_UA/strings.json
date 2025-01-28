@@ -317,7 +317,7 @@
   },
   "more": "Більше",
   "moreScreen": {
-    "downloadOnly": "Показувати тільки завантажене",
+    "downloadOnly": "Тільки завантажені",
     "downloadOnlyDesc": "Показувати тільки завантажені новели",
     "downloadQueue": "Черга завантаження",
     "incognitoMode": "Режим інкогніто",
